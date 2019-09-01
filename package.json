@@ -1,0 +1,16 @@
+{
+  "name": "dawn-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "cd root && cnpm i && cd ../skeleton && cnpm i && cd ../app1 && cnpm i && cd ../app2  && cnpm i",
+    "start:root": "cd root && npm serve",
+    "start:skeleton": "cd skeleton && npm serve",
+    "start:app1": "cd app1 && cnpm serve",
+    "start:app2": "cd app2 && npm serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "danielmlc",
+  "license": "ISC"
+}
